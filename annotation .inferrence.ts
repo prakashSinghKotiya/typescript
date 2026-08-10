@@ -1,9 +1,10 @@
 // 1. Type Annotation:
 // You explicitly tell TypeScript what type a variable should have.
 // The part after : is the type annotation:
+//type annotation is a way to explicitly specify the type of a variable , function parameter, or return value .
 
-const age : number = 25; // age is explicitly annotated as a number
-const namee : string = 'John'; // name is explicitly annotated as a string
+const age : number = 25; // age is explicitly  type annotated as a number
+const namee : string = 'John'; // name is explicitly  type annotated as a string
 
 // 2.Type Inference
 // You don't explicitly specify the type. TypeScript figures it out from the value.
