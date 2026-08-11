@@ -6,6 +6,12 @@
 const age : number = 25; // age is explicitly  type annotated as a number
 const namee : string = 'John'; // name is explicitly  type annotated as a string
 
+// Type annotaion in fn 
+
+function xyz (a: number, b: number): number { // see here we are giving type of parameters and the return type as well 
+        return a + b;
+    }
+
 // 2.Type Inference
 // You don't explicitly specify the type. TypeScript figures it out from the value.
 
