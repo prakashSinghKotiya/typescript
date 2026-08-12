@@ -20,4 +20,7 @@ type MasalaChai = { type: "masala"; spicelevel: number }
 
 
 // 2.Union type means the type value of chai must be from any three 
- type Chai = MasalaChai | GingerChai | ElaichiChai kya hai?
+//  type Chai = MasalaChai | GingerChai | ElaichiChai 
+
+
+ 

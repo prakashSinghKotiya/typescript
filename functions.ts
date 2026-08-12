@@ -19,10 +19,12 @@ yze("prakash")  // see it id is 1 by default so we can give if we want
 
 // 3> optional fn 
 
-
+// see here the second parameter is option so its up to how we call the fn with number or not 
 const cyz = ( a : string , b ? : number) :  string =>{
     if ( b ){
         return `your id is ${b} and name is ${a}`
     }
     return `your name is ${a}`
 }
+
+cyz("prakash")  // no error 

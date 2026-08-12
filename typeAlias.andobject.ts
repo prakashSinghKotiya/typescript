@@ -51,7 +51,7 @@ const u1 :Property = {  //see here we using the typealias Property its like a sm
 
 //fn  to find the name with age 
 
-const find = ( x :Property): String  =>{  // see here inside fn as well we using the type alias , and the retunr type is string
+const find =( x :Property): String  =>{  // see here inside fn as well we using the type alias , and the retunr type is string
 
     return `name is ${x.name} and age is ${x.age}`
 
