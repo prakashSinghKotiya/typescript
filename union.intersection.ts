@@ -31,8 +31,8 @@ const depart :  Id = {  id : 123, department : "IT" }
 function fulldetails (a : Names , b : Id ):{name : string , age: number , id : number , department : string}  { // here we are 
 //                                                              setting the return type means only this values can be retuned 
     return {
-       ... a, 
-       ... b
+       ... a, // without spread op it wil create individual object which is  !== return type 
+       ... b  // spread op is merginf the a and b prop into one object and which is === return type
 }
 }
 
