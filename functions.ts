@@ -28,3 +28,5 @@ const cyz = ( a : string , b ? : number) :  string =>{
 }
 
 cyz("prakash")  // no error 
+
+
