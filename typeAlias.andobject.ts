@@ -58,3 +58,7 @@ const find =( x :Property): String  =>{  // see here inside fn as well we using 
 }
 
 find (u1)
+
+
+//A type alias for an object defines the expected structure (shape) of that object: required keys must be present,
+//  and their values must have the specified types.
