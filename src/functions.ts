@@ -30,3 +30,10 @@ const cyz = ( a : string , b ? : number) :  string =>{
 cyz("prakash")  // no error 
 
 
+// diff way to declare 
+
+// const connectDb: () => Promise<void> = async () => {} , here we are declaring the whole type of the variable connect db 
+                                                        // which is a function that returns a promise of void cuz its an asyncfn
+
+//const connect db = async (): Promise<void>  => {} , here we are only declaring the return type 
+
